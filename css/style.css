@@ -8711,13 +8711,9 @@ header {
         margin-left: 30px; } }
     @media (min-width: 1200px) {
       .ftco-about-section .one-half.half-text {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        width: 1140px;
-        margin: 0 auto; }
+        width: 100%;
+        text-align: center;
+      }
         .ftco-about-section .one-half.half-text .text-inner {
           max-width: 50%; } }
     .ftco-about-section .one-half.half-text .text-inner .subheading {
@@ -9695,6 +9691,33 @@ textarea.form-control {
   padding: 5px 0;
   padding-left: 30px; }
 
+p.about {
+    color: #fff;
+}
+
+h3.aboutheading {
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-family: "Vidaloka", Arial, serif;
+    color: #fff;
+}
+
+.container.about {
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+
+span.subheading {
+    font-size: 58px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: transparent;
+    line-height: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f34573;
+}
+
 .block-4 .nonloop .owl-stage {
   padding-bottom: 2em; }
 
@@ -10045,7 +10068,7 @@ textarea.form-control {
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg); }
-
+  
 #ftco-loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;

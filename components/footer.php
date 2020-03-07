@@ -67,7 +67,7 @@
 	      </div>
 	    </div>
     </div>
-
+	
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -87,6 +87,22 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+		// Get current path and find target link
+		var path = window.location.pathname.split("/").pop();
+		
+		// Account for home page with empty path
+		if ( path == '' ) {
+			path = 'index.php';
+		}
+			
+		var target = $('nav a[href="'+path+'"]');
+		// Add active class to target link
+		target.addClass('active');
+		});
+  </script>
   </body>
 </html>

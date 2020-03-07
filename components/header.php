@@ -38,12 +38,15 @@
           <div class="row no-gutters">
             <div class="col-md-12 text-center">
               <h1 class="mb-4"><a href="index" class="logo">SMBW<br><span>School of Modeling By Wave</span></a></h1>
+              <nav>
               <ul>
                 <li class="active"><a href="index"><span>Home</span></a></li>
                 <li><a href="about"><span>About SMBW</span></a></li>
+                <li><a href="#"><span>Meet the Faculty</span></a></li>
                 <li><a href="http://www.wavemodelmanagement.com/wmm/become-model/"><span>Register</span></a></li>
                 <li><a href="http://www.wavemodelmanagement.com/wmm/contact-us/"><span>Contact Us</span></a></li>
               </ul>
+              </nav>
             </div>
           </div>
         </div>
